@@ -12,4 +12,10 @@
     tools:context="htw_berlin.de.totoro_client.ViewSetsActivity"
     tools:showIn="@layout/activity_view_sets">
 
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listSets"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
